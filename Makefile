@@ -6,6 +6,7 @@
 # clone of the googletest repo is
 GTEST_DIR = /usr/local/include/gtest
 
+
 # Flags passed to the preprocessor and compiler
 CPPFLAGS += --coverage -isystem $(GTEST_DIR)/include
 CXXFLAGS += -g -Wall -Wextra -pthread
